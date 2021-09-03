@@ -1,8 +1,4 @@
-let i=0
-while(i<=10)
-{
-    console.log(i)
-    
-   i=i+1
-}
-
+let emp = ["ramesh", "mahesh", "suresh"];
+let x = emp.pop();
+console.log(emp);
+console.log(x);
