@@ -1,4 +1,5 @@
-let emp = ["ramesh", "mahesh", "suresh"];
-let x = emp.pop();
-console.log(emp);
-console.log(x);
+var date=new Date();  
+var day=date.getDate();  
+var month=date.getMonth();  
+var year=date.getFullYear();  
+console.log("Date is: "+day+"/"+month+"/"+year); 
